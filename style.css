@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+} 
+#container img {
+    display: block;
+    width: 400px ;
+    height: 400px;
+   
+}
+#container02 img {
+    display: block;
+    width:200px ;
+    height: 250px;
+
+}
+.flex-meio{
+    display: flex;
+}
+.Flex-Turismos ul li a{
+    text-decoration:none;
+    font-size: 24px;
+    margin: 20px;
+    
+}
+.Flex-Turismos ul{
+    display:flex;
+    list-style: none;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 18px;      
+     
+}
+.Flex-Turismos{
+    text-align: center;
+    max-width:900px;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    min-width:320px;
+  
+    
+}
+
+    .Flex-Turismos h1 {
+       display: flex;
+        text-align: center;
+        font-size: 42px;
+        
+       
+
+    }
+header{
+    background-color: aqua;
+    margin:10px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    color:black;
+
+    
+}
+header.list-items{
+   display: flex;
+   width: 60%;
+   justify-content:space-between;
+}
+.list-items li a{
+    color: black;
+      
+}
+.flex-container{
+    display:flex;
+    margin-left: 80px;
+   align-items: center;
+   width:auto;
+    height: 400px;
+
+}
+.texto-ap{
+   align-items: center;
+   margin-left: 200px;
+   margin-right: 220px;
+    
+}
+.texto-ap h1{
+    color:black;
+    font-size:48px;
+    margin-bottom:40px;
+    justify-content:space-between;
+
+}
+.texto-ap a{ 
+    background-color:aqua;
+    text-align: center;
+    color:black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius:40px;
+    width: 180px;
+    display: block;
+    width:100px;
+    height:50px;
+    line-height:50px;
+    text-decoration: none;
+    
+}
+.flex-centro{
+    display:flex;
+    height:50vh; 
+    margin-left: 40px; 
+    margin-right: 40px;
+   align-items: center;
+    width: 100%;
+    font-size: 18px;
+    height: auto;
+      }
+
+      .flex-centro h2{
+          display: flex;  
+          margin-left: 40px;
+         
+
+      }
+     .flex-centro p{ 
+
+        display:flex;
+       margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 400px;
+        height: 100%;
+        
+       
+      }
+      .container-externo{
+          
+          background-color: aqua;
+          margin:10px;
+          flex-direction: column;
+          padding-top: 50px;
+          padding-bottom: 60px;
+          width: auto;
+          height:100%;
+
+       
+      }
+      .container-externo h2{
+          color: black;
+          font-size:32px;
+          margin-left: 40px;
+          margin-bottom: 40px;
+         
+         
+      }
+      .flex-servicos{
+          margin-left: 40px;
+          margin-right: 40px;
+        display: flex;
+        justify-content:space-between;
+        height:100%
+      }
+      .list-item{
+
+text-align: center;
+    
+      }
+      .list-item a{
+          width: 100px;
+          background-color:white;
+          height:50px;
+          display:block;
+          text-align:center;
+          margin: 40px;
+          line-height:50px;
+          border-radius: 25px;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 12px;
+          text-decoration: none;
+          color: black;
+          padding: 10px;
+        
+
+      }
+      .list-item p{ 
+          align-items: center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+
+      }
+      .flex-planos{
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 80px;
+        margin-bottom: 40px;
+        margin: 10px;
+ 
+
+        
+         
+      }
+.list-planos{
+    display: flex;
+    margin-top: 180px;
+    width: 1000px;
+    height: 300px;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+.flex-planos h2{
+    display: flex;
+    font-size:44px;
+   margin-left: 40px;
+   margin-top: 40px;
+   margin-bottom:40px
+}
+.item-planos{
+    
+    background-color: aqua;
+    flex:1;
+    margin-right: 40px;
+    
+   
+}
+.item-planos h3{
+    display:flex;
+    font-size: 24px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.item-planos h3::after{
+  content:"";
+  width: 100%;
+  height: 10px;
+    background-color:white;
+    color:black;
+    font-size: 16px; 
+    
+}
+.item-planos ul{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    flex-direction: column;
+    
+}
+.item-planos ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    margin-bottom: 10px;
+
+}
+.item-planos ul li::before{
+    content:"";
+    width: 10px;
+     
+}
+.item-planos a{
+ 
+    background-color:white;
+    height:50px;
+    display:block;
+    margin: 40px;
+    line-height:50px;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+.footer{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+    width: auto;
+    height: 50px;  
+    padding: 10px;
+    font-size: 12px;
+    background-color: aqua;
+      
+    
+}
+
+.footer.footer p{
+    display: flex;
+   text-align: center;
+
+}
+@media(max-width:992px){
+
+    .flex-container{
+        flex-direction: column;
+    
+}
+.texto-ap{
+    flex-direction: column-reverse;
+    align-items:flex-end;
+}
+.flex-centro{
+    flex-direction: column;
+    
+}
+.item-planos{
+    flex-direction: column;
+}
+.flex-servicos{
+    flex-direction: column;
+    
+}
+.Flex-Turismos{
+    flex-direction: column;
+}
+.flex-centro img{
+    height: 50%;
+    margin: auto;
+}
+
+.list-planos img{
+    height: 50%;
+    margin: auto;
+
+}
+#container img{
+    height: 50%;
+    margin: auto;
+    
+}
+
+#container02 img{
+   height: 50%;
+   margin: auto;
+}
+
+}
